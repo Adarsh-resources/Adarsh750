@@ -4,7 +4,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&weight=900&size=24&pause=1000&color=9CF73C&width=435&height=78&lines=Hi+there+%E2%9C%8C%EF%B8%8Fwelcome+to+my+profile;I+am+Adarsh+Singh;Full+Stack+Devloper;Always+Learning+new+things;Exploring+Interstellar%E2%9C%A8%F0%9F%8C%A0)
 
    
-<h3 align="center" > I am Adarsh Singh a Fullstack developer, I am a consistent learner who believe in hard work . I am most attracted to solving real customer problems with a business justification, I am having good experience in computer fundamentals and love to do coding.</h3>
+<h3 align="center" > I am Adarsh Singh, a logical and organized individual with strong foundation in software development. I am exploring Software Development while constantly scope</h3>
 
   
 
