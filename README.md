@@ -8,7 +8,6 @@
 - 🌱 I’m currently learning **Application of DSA Using JAVA.**
 - 👯 Worked as Team Leader on Collaborative Lumen5 Clone Project. [Lumen5 Clone](https://visionary-gumdrop-304cda.netlify.app/)
 - 🤝Worked as Team Leader on Collaborative NetMeds Clone Project. [NetMeds Clone](https://verdant-strudel-f074e5.netlify.app/)
-- 👨‍💻 All of my projects and Resume are available at [https://visheshguria.github.io/](https://visheshguria.github.io/)
 - 💬 Ask me about **JAVA, DSA, javascript, css, html**
 - 📫 How to reach me **adarshsingh.ac.in**
 
