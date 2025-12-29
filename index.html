@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh | 3D Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Three.js Canvas Container -->
+    <canvas id="webgl"></canvas>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+      <div class="loader">
+        <div class="loader-ring"></div>
+        <span class="loader-text">Loading...</span>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">
+        <span class="logo-text">Adarsh</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="section hero" id="home">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Available for opportunities</span>
+          </div>
+          <h1 class="hero-title">
+            <div class="title-line-wrapper">
+              <span class="title-line" data-text="Hello, I'm">Hello, I'm</span>
+            </div>
+            <div class="title-name-wrapper">
+              <span class="title-name glitch" data-text="Adarsh">Adarsh</span>
+            </div>
+          </h1>
+          <div class="hero-subtitle-wrapper">
+            <p class="hero-subtitle">
+              <span class="text-reveal">Quality Assurance Engineer</span>
+              <span class="cursor-blink">|</span>
+            </p>
+          </div>
+          <p class="hero-description">
+            <span class="word">Ensuring</span>
+            <span class="word">software</span>
+            <span class="word">excellence</span>
+            <span class="word">through</span>
+            <span class="word highlight">automation,</span>
+            <span class="word highlight">precision,</span>
+            <span class="word">and</span>
+            <span class="word highlight">innovation.</span>
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary magnetic">
+              <span class="btn-text">View My Work</span>
+              <span class="btn-icon">→</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary magnetic">
+              <span class="btn-text">Get In Touch</span>
+              <span class="btn-icon">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <div class="scroll-line"></div>
+          <span>Scroll</span>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section about" id="about">
+        <div class="section-container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p class="reveal-text">
+                I'm a dedicated <span class="text-highlight">Quality Assurance Engineer</span> 
+                with expertise in both manual and automation testing. I specialize in 
+                ensuring software reliability using <span class="text-highlight">Playwright</span>, 
+                <span class="text-highlight">Selenium</span>, and <span class="text-highlight">Azure</span> cloud technologies.
+              </p>
+              <p class="reveal-text">
+                My passion lies in building robust test frameworks, identifying critical bugs, 
+                and delivering high-quality software that exceeds user expectations. I thrive 
+                in agile environments where precision meets innovation.
+              </p>
+              <div class="about-stats">
+                <div class="stat">
+                  <span class="stat-number" data-target="50">0</span>+
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number" data-target="3">0</span>+
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-number" data-target="30">0</span>+
+                  <span class="stat-label">Happy Clients</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="section experience" id="experience">
+        <div class="section-container">
+          <h2 class="section-title">Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Associate Test Analyst</h3>
+                  <span class="timeline-company">Microsoft</span>
+                </div>
+                <span class="timeline-date">July 2025 - Present</span>
+                <p class="timeline-description">
+                  Responsible for designing and executing comprehensive test plans and test cases 
+                  for software applications. Perform manual testing to identify bugs and ensure 
+                  software quality. Collaborate with development teams to understand requirements 
+                  and validate implementations. Create detailed test reports and documentation 
+                  for quality assurance processes.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">Manual Testing</span>
+                  <span class="tag">Test Case Design</span>
+                  <span class="tag">Bug Tracking</span>
+                  <span class="tag">QA</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Associate Test Analyst</h3>
+                  <span class="timeline-company">Startek India</span>
+                </div>
+                <span class="timeline-date">April 2023 - July 2025</span>
+                <p class="timeline-description">
+                  Full-time Software Tester with expertise in manual and automation testing using 
+                  Playwright and Selenium. Skilled in validating cloud-native applications on Azure 
+                  and leveraging Application Insights for monitoring and performance analysis. 
+                  Experienced in agile workflows with JIRA and Kanban, ensuring reliable, scalable, 
+                  and user-focused software delivery.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">Manual Testing</span>
+                  <span class="tag">Selenium</span>
+                  <span class="tag">Azure</span>
+                  <span class="tag">JIRA</span>
+                  <span class="tag">QA</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Backend Developer</h3>
+                  <span class="timeline-company">Brickred System India Pvt Ltd</span>
+                </div>
+                <span class="timeline-date">2021 - 2023</span>
+                <p class="timeline-description">
+                  Built scalable web applications using React, Node.js, and MongoDB. Implemented 
+                  real-time features with WebSocket, developed RESTful APIs, and created responsive 
+                  UI designs with modern CSS frameworks.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section projects" id="projects">
+        <div class="section-container">
+          <h2 class="section-title">View My Work</h2>
+          <div class="projects-grid">
+            <article class="project-card" data-project="1">
+              <div class="project-image">
+                <div class="project-placeholder" style="background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);">
+                  <span>🏥</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">TalkToTreat</h3>
+                <p class="project-role">SQL Developer | Noida, UP</p>
+                <p class="project-description">
+                  TalktoTreat is a web-based application built using Spring Boot that allows 
+                  patients to book online appointments with doctors. Responsible for designing 
+                  the database structure, including tables, fields, indexes, and relationships. 
+                  Managed data insertion using SQL queries.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">Spring Data JPA</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Hibernate</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-project="2">
+              <div class="project-image">
+                <div class="project-placeholder" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                  <span>🏢</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Bricknet Web Application</h3>
+                <p class="project-role">Full Stack Developer | Noida, UP</p>
+                <p class="project-description">
+                  Bricknet is a web-based application built using Spring Boot for server-side 
+                  development that allows HR managers to manage employee records. Designed and 
+                  developed the data model using Spring Data JPA and MySQL, with client-side 
+                  development using JavaScript.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Hibernate</span>
+                  <span class="tag">HTML/CSS/JS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-project="3">
+              <div class="project-image">
+                <div class="project-placeholder" style="background: linear-gradient(135deg, #0078d4 0%, #00bcf2 100%);">
+                  <span>🧪</span>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3 class="project-title">Web Application Testing</h3>
+                <p class="project-role">QA / Test Engineer</p>
+                <p class="project-description">
+                  Performed end-to-end testing using automation and manual approaches. Developed 
+                  test scripts using Playwright with TypeScript, implemented Page Object Model (POM), 
+                  and conducted cross-browser testing. Executed functional, smoke, and regression 
+                  testing on Azure-deployed applications.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Playwright</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">Azure</span>
+                  <span class="tag">Git</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section skills" id="skills">
+        <div class="section-container">
+          <h2 class="section-title">My Skills</h2>
+          <div class="skills-container">
+            <div class="skill-category">
+              <h3 class="category-title">Test Automation</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">🎭</div>
+                  <span class="skill-name">Playwright</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔧</div>
+                  <span class="skill-name">Selenium</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔌</div>
+                  <span class="skill-name">API Testing</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3 class="category-title">Testing Types</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">✅</div>
+                  <span class="skill-name">Functional Testing</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔄</div>
+                  <span class="skill-name">Regression Testing</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔗</div>
+                  <span class="skill-name">Integration Testing</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3 class="category-title">Cloud & DevOps</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">☁️</div>
+                  <span class="skill-name">Azure Cloud</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">📈</div>
+                  <span class="skill-name">Application Insights</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🚀</div>
+                  <span class="skill-name">CI/CD Integration</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3 class="category-title">Development</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">☕</div>
+                  <span class="skill-name">Java</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🍃</div>
+                  <span class="skill-name">Spring Boot</span>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🏗️</div>
+                  <span class="skill-name">Microservices</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact" id="contact">
+        <div class="section-container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <p class="contact-description">
+                Have a project in mind? Let's work together to bring your ideas to life.
+              </p>
+              <div class="contact-links">
+                <a href="mailto:rajputadarsh750@gmail.com" class="contact-link">
+                  <span class="contact-icon">📧</span>
+                  <span>rajputadarsh750@gmail.com</span>
+                </a>
+                <a href="tel:+919651115082" class="contact-link">
+                  <span class="contact-icon">📱</span>
+                  <span>+91 9651115082</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adarsh-singh-948174208/" class="contact-link" target="_blank">
+                  <span class="contact-icon">💼</span>
+                  <span>LinkedIn</span>
+                </a>
+                <a class="contact-link">
+                  <span class="contact-icon">📍</span>
+                  <span>Mayur Vihar 1, Delhi</span>
+                </a>
+              </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Adarsh. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
